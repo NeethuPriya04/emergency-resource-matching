@@ -1,0 +1,38 @@
+body {
+    background-color: #0b0f19;
+    color: #f8fafc;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+.card {
+    background-color: #151d30;
+    border: 1px solid #233152;
+    border-radius: 12px;
+}
+.badge-urgency-4 { background-color: #ef4444; color: #fff; }
+.badge-urgency-3 { background-color: #f97316; color: #fff; }
+.badge-urgency-2 { background-color: #eab308; color: #000; }
+.badge-urgency-1 { background-color: #22c55e; color: #fff; }
+#canvasMap {
+    background-color: #070a12;
+    border: 1px solid #233152;
+    border-radius: 8px;
+    width: 100%;
+    height: 360px;
+    display: block;
+}
+.table-dark {
+    background-color: transparent !important;
+}
+.nav-pills .nav-link {
+    color: #94a3b8;
+    cursor: pointer;
+}
+.nav-pills .nav-link.active {
+    background-color: #0284c7;
+    color: #fff;
+    font-weight: 600;
+}
+.match-scroll-container {
+    max-height: 440px;
+    overflow-y: auto;
+}
